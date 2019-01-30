@@ -11,7 +11,9 @@ source (name_of_virtual_environment)/bin/activate
 run 'pip -r install requirements.txt'
 
 run 'python manage.py migrate'
+
 run 'python manage.py makemigrations'
+
 run 'python manage.py runserver'
 
 Following are the API endpoints and their method with parameter:
