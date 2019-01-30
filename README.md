@@ -15,15 +15,15 @@ run python manage.py runserver
 Following are the API endpoints and their method with parameter:
 
      API Endpoint               Method                     Parameters
-1)    /login                     POST                         email
+1)    /login                     POST                         email,
                                                               password
                                                               
-2)   /create                     POST                         password
-                                                              email
-                                                              first_name
+2)   /create                     POST                         password,
+                                                              email,
+                                                              first_name,
                                                               last_name
 
-3)   /reset                      POST                         email
+3)   /reset                      POST                         email,
                                                               password
 
 
