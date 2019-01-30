@@ -13,17 +13,6 @@ run python manage.py makemigrations
 run python manage.py runserver
 
 Following are the API endpoints and their method with parameter:
-
-     API Endpoint               Method                     Parameters
-1)    /login                     POST                         email,
-                                                              password
-                                                              
-2)   /create                     POST                         password,
-                                                              email,
-                                                              first_name,
-                                                              last_name
-
-3)   /reset                      POST                         email,
-                                                              password
+https://docs.google.com/document/d/1gfGzTqw8ofrUoL5dcURym5f1X1Oo8RqtL1XrLHKsmHo/edit?usp=sharing
 
 
